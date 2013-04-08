@@ -11,5 +11,4 @@ include noeqd
 ## Required Puppet Modules
 
 * boxen
-* homebrew
 
