@@ -1,3 +1,4 @@
+# Private: configures noeqd
 class noeqd::config {
   require boxen::config
 

@@ -1,3 +1,4 @@
+# Public: installs noeqd
 class noeqd {
   include noeqd::config
 
@@ -8,7 +9,7 @@ class noeqd {
   file { $noeqd::config::executable:
     content => 'noeqd/bin/noeqd',
     notify  => Service['dev.noeqd'],
-    mode    => 0644
+    mode    => '0644'
   }
 
   file { '/Library/LaunchDaemons/dev.noeqd.plist':
